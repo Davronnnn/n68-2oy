@@ -1,0 +1,92 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #011627;
+    color: #fff;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+.trip-section {
+    padding-top: 50px;
+    position: relative;
+
+    /* 
+        position
+    */
+
+    /* box model */
+
+    /* display */
+}
+.trip-bg-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    width: 100vw;
+}
+
+.trip-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+
+    text-align: center;
+}
+
+.trip-item {
+    font-size: 18px;
+    color: #ffffff50;
+
+    width: 25%;
+    padding-bottom: 37px;
+    border-bottom: 2px solid #41ead430;
+}
+.trip-item-active {
+    color: #41ead4;
+    border-bottom: 4px solid #41ead4;
+    border-radius: 13px;
+}
+.nt-logo {
+    position: relative;
+    z-index: 1000;
+}
+.nt-logo path:hover {
+    fill: #da6d97 !important;
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+    body {
+        background-color: red;
+    }
+}

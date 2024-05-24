@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Mulish-Medium";
+    src: url("./fonts/Mulish/static/Mulish-Medium.ttf");
+}
+body {
+    margin: 20px;
+    /* padding: 50px; */
+}
+
+.box {
+    background-color: blue;
+    width: 600px;
+    height: 50vh;
+
+    max-height: 250px;
+    min-height: 150px;
+    max-width: 800px;
+    min-width: 400px;
+}
